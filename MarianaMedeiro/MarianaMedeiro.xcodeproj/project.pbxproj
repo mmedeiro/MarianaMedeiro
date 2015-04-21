@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BB3838E1ADEC12D00A8BDEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB3838D1ADEC12D00A8BDEA /* AppDelegate.swift */; };
+		4BB383931ADEC12D00A8BDEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB383911ADEC12D00A8BDEA /* Main.storyboard */; };
+		4BB383951ADEC12D00A8BDEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB383941ADEC12D00A8BDEA /* Images.xcassets */; };
+		4BB383981ADEC12D00A8BDEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BB383961ADEC12D00A8BDEA /* LaunchScreen.xib */; };
+		4BB383A41ADEC12D00A8BDEA /* MarianaMedeiroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB383A31ADEC12D00A8BDEA /* MarianaMedeiroTests.swift */; };
+		4BBFE2301AE176EE0008C7D4 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBFE22F1AE176EE0008C7D4 /* InitialViewController.swift */; };
+		4BBFE2321AE191190008C7D4 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBFE2311AE191190008C7D4 /* EducationViewController.swift */; };
+		4BBFE2341AE1916E0008C7D4 /* JobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBFE2331AE1916E0008C7D4 /* JobsViewController.swift */; };
+		4BBFE2361AE191840008C7D4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBFE2351AE191840008C7D4 /* ProfileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BB3839E1ADEC12D00A8BDEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BB383801ADEC12D00A8BDEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BB383871ADEC12D00A8BDEA;
+			remoteInfo = MarianaMedeiro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BB383881ADEC12D00A8BDEA /* MarianaMedeiro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarianaMedeiro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB3838C1ADEC12D00A8BDEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB3838D1ADEC12D00A8BDEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BB383921ADEC12D00A8BDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BB383941ADEC12D00A8BDEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4BB383971ADEC12D00A8BDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4BB3839D1ADEC12D00A8BDEA /* MarianaMedeiroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarianaMedeiroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB383A21ADEC12D00A8BDEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB383A31ADEC12D00A8BDEA /* MarianaMedeiroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarianaMedeiroTests.swift; sourceTree = "<group>"; };
+		4BBFE22F1AE176EE0008C7D4 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		4BBFE2311AE191190008C7D4 /* EducationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
+		4BBFE2331AE1916E0008C7D4 /* JobsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsViewController.swift; sourceTree = "<group>"; };
+		4BBFE2351AE191840008C7D4 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BB383851ADEC12D00A8BDEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB3839A1ADEC12D00A8BDEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BB3837F1ADEC12D00A8BDEA = {
+			isa = PBXGroup;
+			children = (
+				4BB3838A1ADEC12D00A8BDEA /* MarianaMedeiro */,
+				4BB383A01ADEC12D00A8BDEA /* MarianaMedeiroTests */,
+				4BB383891ADEC12D00A8BDEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BB383891ADEC12D00A8BDEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BB383881ADEC12D00A8BDEA /* MarianaMedeiro.app */,
+				4BB3839D1ADEC12D00A8BDEA /* MarianaMedeiroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BB3838A1ADEC12D00A8BDEA /* MarianaMedeiro */ = {
+			isa = PBXGroup;
+			children = (
+				4BB3838D1ADEC12D00A8BDEA /* AppDelegate.swift */,
+				4BBFE22F1AE176EE0008C7D4 /* InitialViewController.swift */,
+				4BBFE2331AE1916E0008C7D4 /* JobsViewController.swift */,
+				4BBFE2351AE191840008C7D4 /* ProfileViewController.swift */,
+				4BBFE2311AE191190008C7D4 /* EducationViewController.swift */,
+				4BB383911ADEC12D00A8BDEA /* Main.storyboard */,
+				4BB383941ADEC12D00A8BDEA /* Images.xcassets */,
+				4BB383961ADEC12D00A8BDEA /* LaunchScreen.xib */,
+				4BB3838B1ADEC12D00A8BDEA /* Supporting Files */,
+			);
+			path = MarianaMedeiro;
+			sourceTree = "<group>";
+		};
+		4BB3838B1ADEC12D00A8BDEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BB3838C1ADEC12D00A8BDEA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BB383A01ADEC12D00A8BDEA /* MarianaMedeiroTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BB383A31ADEC12D00A8BDEA /* MarianaMedeiroTests.swift */,
+				4BB383A11ADEC12D00A8BDEA /* Supporting Files */,
+			);
+			path = MarianaMedeiroTests;
+			sourceTree = "<group>";
+		};
+		4BB383A11ADEC12D00A8BDEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BB383A21ADEC12D00A8BDEA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BB383871ADEC12D00A8BDEA /* MarianaMedeiro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB383A71ADEC12D00A8BDEA /* Build configuration list for PBXNativeTarget "MarianaMedeiro" */;
+			buildPhases = (
+				4BB383841ADEC12D00A8BDEA /* Sources */,
+				4BB383851ADEC12D00A8BDEA /* Frameworks */,
+				4BB383861ADEC12D00A8BDEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarianaMedeiro;
+			productName = MarianaMedeiro;
+			productReference = 4BB383881ADEC12D00A8BDEA /* MarianaMedeiro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BB3839C1ADEC12D00A8BDEA /* MarianaMedeiroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB383AA1ADEC12D00A8BDEA /* Build configuration list for PBXNativeTarget "MarianaMedeiroTests" */;
+			buildPhases = (
+				4BB383991ADEC12D00A8BDEA /* Sources */,
+				4BB3839A1ADEC12D00A8BDEA /* Frameworks */,
+				4BB3839B1ADEC12D00A8BDEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BB3839F1ADEC12D00A8BDEA /* PBXTargetDependency */,
+			);
+			name = MarianaMedeiroTests;
+			productName = MarianaMedeiroTests;
+			productReference = 4BB3839D1ADEC12D00A8BDEA /* MarianaMedeiroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BB383801ADEC12D00A8BDEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Mariana Medeiro";
+				TargetAttributes = {
+					4BB383871ADEC12D00A8BDEA = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					4BB3839C1ADEC12D00A8BDEA = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 4BB383871ADEC12D00A8BDEA;
+					};
+				};
+			};
+			buildConfigurationList = 4BB383831ADEC12D00A8BDEA /* Build configuration list for PBXProject "MarianaMedeiro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BB3837F1ADEC12D00A8BDEA;
+			productRefGroup = 4BB383891ADEC12D00A8BDEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BB383871ADEC12D00A8BDEA /* MarianaMedeiro */,
+				4BB3839C1ADEC12D00A8BDEA /* MarianaMedeiroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BB383861ADEC12D00A8BDEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB383931ADEC12D00A8BDEA /* Main.storyboard in Resources */,
+				4BB383981ADEC12D00A8BDEA /* LaunchScreen.xib in Resources */,
+				4BB383951ADEC12D00A8BDEA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB3839B1ADEC12D00A8BDEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BB383841ADEC12D00A8BDEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBFE2341AE1916E0008C7D4 /* JobsViewController.swift in Sources */,
+				4BB3838E1ADEC12D00A8BDEA /* AppDelegate.swift in Sources */,
+				4BBFE2361AE191840008C7D4 /* ProfileViewController.swift in Sources */,
+				4BBFE2321AE191190008C7D4 /* EducationViewController.swift in Sources */,
+				4BBFE2301AE176EE0008C7D4 /* InitialViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB383991ADEC12D00A8BDEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB383A41ADEC12D00A8BDEA /* MarianaMedeiroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BB3839F1ADEC12D00A8BDEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BB383871ADEC12D00A8BDEA /* MarianaMedeiro */;
+			targetProxy = 4BB3839E1ADEC12D00A8BDEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BB383911ADEC12D00A8BDEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BB383921ADEC12D00A8BDEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BB383961ADEC12D00A8BDEA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BB383971ADEC12D00A8BDEA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BB383A51ADEC12D00A8BDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BB383A61ADEC12D00A8BDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BB383A81ADEC12D00A8BDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarianaMedeiro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4BB383A91ADEC12D00A8BDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarianaMedeiro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4BB383AB1ADEC12D00A8BDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MarianaMedeiroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarianaMedeiro.app/MarianaMedeiro";
+			};
+			name = Debug;
+		};
+		4BB383AC1ADEC12D00A8BDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MarianaMedeiroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarianaMedeiro.app/MarianaMedeiro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BB383831ADEC12D00A8BDEA /* Build configuration list for PBXProject "MarianaMedeiro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB383A51ADEC12D00A8BDEA /* Debug */,
+				4BB383A61ADEC12D00A8BDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BB383A71ADEC12D00A8BDEA /* Build configuration list for PBXNativeTarget "MarianaMedeiro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB383A81ADEC12D00A8BDEA /* Debug */,
+				4BB383A91ADEC12D00A8BDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BB383AA1ADEC12D00A8BDEA /* Build configuration list for PBXNativeTarget "MarianaMedeiroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB383AB1ADEC12D00A8BDEA /* Debug */,
+				4BB383AC1ADEC12D00A8BDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BB383801ADEC12D00A8BDEA /* Project object */;
+}
