@@ -28,7 +28,7 @@ class JobsViewController: UIViewController {
         bepidLabel.textColor = UIColor.whiteColor()
         bepidLabel.backgroundColor = UIColor.lightGrayColor()
         
-        megaLabel.text = "TvAlphaville \n MegaTelecom \n HelpDesk \n Nov/2011 - Jan/2013"
+        megaLabel.text = "TvAlphaville \n MegaTelecom \n Technical Support \n Nov/2011 - Jan/2013"
         megaLabel.textColor = UIColor.whiteColor()
         megaLabel.backgroundColor = UIColor.lightGrayColor()
         

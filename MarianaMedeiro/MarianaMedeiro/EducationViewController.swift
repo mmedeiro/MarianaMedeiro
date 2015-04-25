@@ -42,7 +42,7 @@ class EducationViewController: UIViewController {
         highSchoolLabel.textColor = UIColor.whiteColor()
         highSchoolLabel.backgroundColor = UIColor.lightGrayColor()
         
-        technicalLabel.text = "Network Technical \n Instituto Técnico de Barueri (ITB) \n 2010 - 2012"
+        technicalLabel.text = "Network Technician \n Instituto Técnico de Barueri (ITB) \n 2010 - 2012"
         technicalLabel.textColor = UIColor.whiteColor()
         technicalLabel.backgroundColor = UIColor.lightGrayColor()
         

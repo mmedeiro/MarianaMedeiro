@@ -16,6 +16,8 @@
 		4BBFE2321AE191190008C7D4 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBFE2311AE191190008C7D4 /* EducationViewController.swift */; };
 		4BBFE2341AE1916E0008C7D4 /* JobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBFE2331AE1916E0008C7D4 /* JobsViewController.swift */; };
 		4BBFE2361AE191840008C7D4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBFE2351AE191840008C7D4 /* ProfileViewController.swift */; };
+		4BD7816A1AE9632900D5FBC6 /* NewInitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD781691AE9632900D5FBC6 /* NewInitialViewController.swift */; };
+		4BD788321AEABAD200568037 /* ScrollViewTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD788311AEABAD200568037 /* ScrollViewTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		4BBFE2311AE191190008C7D4 /* EducationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
 		4BBFE2331AE1916E0008C7D4 /* JobsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsViewController.swift; sourceTree = "<group>"; };
 		4BBFE2351AE191840008C7D4 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4BD781691AE9632900D5FBC6 /* NewInitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewInitialViewController.swift; sourceTree = "<group>"; };
+		4BD788311AEABAD200568037 /* ScrollViewTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewTestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 				4BBFE2351AE191840008C7D4 /* ProfileViewController.swift */,
 				4BBFE2311AE191190008C7D4 /* EducationViewController.swift */,
 				4BB383911ADEC12D00A8BDEA /* Main.storyboard */,
+				4BD788311AEABAD200568037 /* ScrollViewTestViewController.swift */,
+				4BD781691AE9632900D5FBC6 /* NewInitialViewController.swift */,
 				4BB383941ADEC12D00A8BDEA /* Images.xcassets */,
 				4BB383961ADEC12D00A8BDEA /* LaunchScreen.xib */,
 				4BB3838B1ADEC12D00A8BDEA /* Supporting Files */,
@@ -221,11 +227,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BD7816A1AE9632900D5FBC6 /* NewInitialViewController.swift in Sources */,
 				4BBFE2341AE1916E0008C7D4 /* JobsViewController.swift in Sources */,
 				4BB3838E1ADEC12D00A8BDEA /* AppDelegate.swift in Sources */,
 				4BBFE2361AE191840008C7D4 /* ProfileViewController.swift in Sources */,
 				4BBFE2321AE191190008C7D4 /* EducationViewController.swift in Sources */,
 				4BBFE2301AE176EE0008C7D4 /* InitialViewController.swift in Sources */,
+				4BD788321AEABAD200568037 /* ScrollViewTestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,9 +362,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MarianaMedeiro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -364,9 +374,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MarianaMedeiro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
