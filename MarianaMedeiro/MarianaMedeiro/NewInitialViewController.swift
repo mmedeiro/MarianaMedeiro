@@ -33,7 +33,7 @@ class NewInitialViewController: UIViewController {
         
         EducationLabel.hidden = true
         ExperiencesLabel.hidden = true
-        //ProfileLabel.hidden = true
+        ProfileLabel.hidden = true
         
         UIView.animateWithDuration(1.0, delay: 0.2, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.0, options: nil, animations: {
             

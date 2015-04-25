@@ -10,8 +10,6 @@ import UIKit
 
 class ProfileViewController: UIViewController, UIScrollViewDelegate {
 
-    @IBOutlet weak var profileImage: UIImageView!
-    @IBOutlet weak var backImage: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var ageLabel: UILabel!
     @IBOutlet weak var maritalStatusLabel: UILabel!
